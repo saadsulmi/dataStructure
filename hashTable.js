@@ -69,9 +69,9 @@ class hashTable{
 
 const ht=new hashTable(20);
 ht.put("name","saad");
-ht.put("place","achu");
-ht.put("1","jijo");
-ht.put("2","abhi");
-ht.put("saad","sag");
+ht.put("place","tvm");
+ht.put("1","supra");
+ht.put("2","brain dead");
+ht.put("saad","ds");
 ht.put("3","aju");
 ht.display();

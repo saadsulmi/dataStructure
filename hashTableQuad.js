@@ -56,7 +56,6 @@ const ht=new hashTable(20);
 ht.put("name","saad");
 ht.put("naem","saed");
 ht.put("neam","betrayed");
-ht.put("mean","nikki");
 ht.put("name","jaan");
 ht.display()
 

@@ -70,8 +70,8 @@ class prefixTrie{
     }
     
 }
-let str1="saadsulmi"
-let str2="hadihaneef"
+let str1="saad sulmi"
+let str2="hadi haneef"
 const tr=new prefixTrie();
 tr.trie(str1);
 tr.trie(str2);

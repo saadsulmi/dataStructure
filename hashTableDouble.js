@@ -51,12 +51,12 @@ class hashTable{
 }
 
 const ht=new hashTable(20);
-ht.put("name","jaan");
-ht.put("nmea","saad");
+ht.put("name","saad");
+ht.put("nmea","solo");
 ht.put("mean","ls");
-ht.put("amen","love");
+ht.put("amen","include");
 ht.put("age","456");
-ht.put("aemn","sdf");
-ht.put("mane","lodee");
+ht.put("aemn","buff");
+ht.put("mane","vandal");
 ht.display()
 

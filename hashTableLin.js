@@ -63,11 +63,7 @@ class hashTable{
 
 const ht=new hashTable(6);
 ht.put("name","saad");
-ht.put("amen","moonji");
-ht.put("amn","love");
-ht.put("am","hehe");
-ht.put("nmae","moonji");
-ht.put("eamn","moonji");
-ht.put("am","f*** me")
+ht.put("gun","Vandal");
+
 console.log(ht)
 

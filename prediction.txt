@@ -1,0 +1,27 @@
+//include it on prefix tree
+
+prediction(string){
+        let node=this.root;
+        let result=[];
+        for(let i=0;i<string.length;i++){
+            let letter=string.charAt(i);
+            if(!node.children.has(letter)){
+                return result;
+            }
+            node = node.children.get(letter);
+        }
+        this.dfs(node,string,result);
+        return result;
+    }
+    
+    dfs(current,string,result){
+        if(current.children.has(this.endstr)){
+            result.push(string);
+        }
+        for(let [letter,childNode] of current.children){
+            if(letter!=this.endstr){
+                let newString = string+letter;
+                this.dfs(childNode,newString,result);
+            }
+        }
+    }

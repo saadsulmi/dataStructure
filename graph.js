@@ -85,7 +85,8 @@ class graph{
             console.log(current);
             nodeToexplore.push(...this.map.get(current));
          }
-    }  
+    }
+
     removeVertex(vertex) {
         if (!this.map.has(vertex)) {
           console.log("Vertex not found.");
@@ -106,12 +107,14 @@ class graph{
     }
 }
 const g=new graph();
-g.insert(1,2);
 g.insert(2,3);
 g.insert(3,4);
 g.insert(4,5);
-g.insert(3,5);
+g.insert(1,2);
+g.insert(4,5);
 g.insert(5,23);
-g.insert(23,55);
+g.dfs(5)
+// g.removeVertex(5)
 
 console.log(g);
+// g.display()
